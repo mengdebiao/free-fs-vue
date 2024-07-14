@@ -1,7 +1,7 @@
 <template>
   <div class="logo-wrap flex items-center w-[236px]" @click="goHome">
     <img class="h-[58px]" src="@/assets/img/logo.png" :alt="title" />
-    <h1 class="font-medium">{{ title }}</h1>
+    <h1 class="text-base font-medium">{{ title }}</h1>
   </div>
 </template>
 
